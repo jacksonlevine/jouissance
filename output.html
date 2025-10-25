@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head>
+
+</head>
+<body>
+    <div id="counter0">
+        <p counterdisplay="">0</p>
+        <button onclick="incrementCounter0()">Increment</button>
+    </div>
+<script>
+            let counterval0 = 0;
+            let el0 = document.querySelector('#counter0');
+            let counterdisplay0 = el0.querySelector("[counterdisplay]");
+            function incrementCounter0() {
+                counterval0 += 1;
+                counterdisplay0.innerHTML = "" + counterval0;
+            }
+            </script></body></html>
