@@ -2,7 +2,7 @@
   "name": "laststep",
   "version": "1.0.0",
   "description": "a last step for the CAS builder, to add the client javascript to components",
-  "main": "index.js",
+  "main": "jouissance.js",
    "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
