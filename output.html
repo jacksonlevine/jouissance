@@ -2,65 +2,65 @@
 
 </head>
 <body>
-    <div id="counter0">
-        <p counterdisplay="">0</p>
+    <div data-counter0="">
+        <p data-counterdisplay="">0</p>
         <button onclick="incrementCounter0()">Increment</button>
     </div>
 
     <div style="display:flex; flex-direction:row;">
-        <div id="counter1">
-            <p counterdisplay="">0</p>
+        <div data-counter1="">
+            <p data-counterdisplay="">0</p>
             <button onclick="incrementCounter1()">Increment</button>
         </div>
-        <div id="counter2">
-            <p counterdisplay="">0</p>
+        <div data-counter2="">
+            <p data-counterdisplay="">0</p>
             <button onclick="incrementCounter2()">Increment</button>
         </div>
-        <div id="counter3">
-            <p counterdisplay="">0</p>
+        <div data-counter3="">
+            <p data-counterdisplay="">0</p>
             <button onclick="incrementCounter3()">Increment</button>
         </div>
-        <div id="counter4">
-            <p counterdisplay="">0</p>
+        <div data-counter4="">
+            <p data-counterdisplay="">0</p>
             <button onclick="incrementCounter4()">Increment</button>
         </div>
     </div>
 <script>
                 let counterval0 = 0;
-                let el0 = document.querySelector('#counter0');
-                let counterdisplay0 = el0.querySelector("[counterdisplay]");
+                let el0 = document.querySelector('[data-counter0]');
+                let counterdisplay0 = el0.querySelector("[data-counterdisplay]");
                 function incrementCounter0() {
                     counterval0 += 1;
                     counterdisplay0.innerHTML = "" + counterval0;
                 }
                 
                 let counterval1 = 0;
-                let el1 = document.querySelector('#counter1');
-                let counterdisplay1 = el1.querySelector("[counterdisplay]");
+                let el1 = document.querySelector('[data-counter1]');
+                let counterdisplay1 = el1.querySelector("[data-counterdisplay]");
                 function incrementCounter1() {
                     counterval1 += 1;
                     counterdisplay1.innerHTML = "" + counterval1;
                 }
                 
                 let counterval2 = 0;
-                let el2 = document.querySelector('#counter2');
-                let counterdisplay2 = el2.querySelector("[counterdisplay]");
+                let el2 = document.querySelector('[data-counter2]');
+                let counterdisplay2 = el2.querySelector("[data-counterdisplay]");
                 function incrementCounter2() {
                     counterval2 += 1;
                     counterdisplay2.innerHTML = "" + counterval2;
                 }
                 
                 let counterval3 = 0;
-                let el3 = document.querySelector('#counter3');
-                let counterdisplay3 = el3.querySelector("[counterdisplay]");
+                let el3 = document.querySelector('[data-counter3]');
+                let counterdisplay3 = el3.querySelector("[data-counterdisplay]");
                 function incrementCounter3() {
                     counterval3 += 1;
                     counterdisplay3.innerHTML = "" + counterval3;
                 }
                 
                 let counterval4 = 0;
-                let el4 = document.querySelector('#counter4');
-                let counterdisplay4 = el4.querySelector("[counterdisplay]");
+                let el4 = document.querySelector('[data-counter4]');
+                let counterdisplay4 = el4.querySelector("[data-counterdisplay]");
                 function incrementCounter4() {
                     counterval4 += 1;
                     counterdisplay4.innerHTML = "" + counterval4;
