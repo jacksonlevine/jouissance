@@ -35,6 +35,9 @@ function processFile() {
                 }
                 `;
             }
+        },
+        {
+            htmlselector: "[data-shopify-config]",
         }
     ];
 
